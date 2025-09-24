@@ -188,7 +188,6 @@ main {
     text-align: center;
     /* centra el texto */
     padding: 2rem;
-    min-height: 100vh;
     /* ocupa toda la pantalla */
 }
 

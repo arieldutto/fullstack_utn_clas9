@@ -40,6 +40,8 @@ header {
 
 .logo-img {
     object-fit: contain;
+    width: 180px;
+    height: 180px;
 }
 
 .site-title h1 {

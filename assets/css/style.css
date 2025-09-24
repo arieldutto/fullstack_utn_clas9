@@ -8,9 +8,12 @@
 /* Header */
 header {
     background-color: #ffffff;
-    border-bottom: 1px solid #eaeaea;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
     /* Línea sutil */
     padding: 1rem 2rem;
+    margin: 1%;
+
 }
 
 .navbar {
@@ -153,7 +156,7 @@ footer {
     align-items: center;
     background-color: #eaeaea;
     border: 1px solid #333;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1.5rem;
     margin: 1%;
 }

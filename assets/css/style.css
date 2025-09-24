@@ -165,3 +165,14 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+/* --- Main ---*/
+
+main {
+    display: grid;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin: 1%;
+}

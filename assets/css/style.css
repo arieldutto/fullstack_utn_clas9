@@ -7,22 +7,19 @@
 
 /* Header */
 header {
-    width: 100%;
     background-color: #ffffff;
-    /* Fondo blanco limpio */
     border-bottom: 1px solid #eaeaea;
     /* Línea sutil */
+    padding: 1rem 2rem;
 }
 
-nav {
-    max-width: 1200px;
-    /* Centrado */
-    margin: 0 auto;
-    padding: 1rem 2rem;
+.navbar {
     display: flex;
     justify-content: space-between;
-    /* logo izquierda, menú derecha */
+    /* 2 columnas */
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo {

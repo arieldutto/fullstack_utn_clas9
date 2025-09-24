@@ -18,12 +18,21 @@ header {
     justify-content: space-between;
     /* 2 columnas */
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .nav-left {
-    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-center {
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-rigth {
     align-items: center;
     gap: 1rem;
 }

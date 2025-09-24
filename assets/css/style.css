@@ -90,7 +90,7 @@ body {
     font-size: 16px;
     color: #222;
     line-height: 1.6;
-    background-image: url("assets/img/fondo.jpg");
+    background-image: url("./assets/img/fondo.jpg");
     background-size: cover;
     /* Ajusta la imagen al tamaño de la pantalla */
     background-position: center;

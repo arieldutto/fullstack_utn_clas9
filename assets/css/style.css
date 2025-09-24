@@ -22,6 +22,59 @@ header {
     margin: 0 auto;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.site-title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Navegación debajo del título */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #0073e6;
+}
+
+/* Columna derecha */
+.btn-contacto {
+    padding: 0.5rem 1rem;
+    background: #0073e6;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    transition: background 0.3s ease;
+}
+
+.btn-contacto:hover {
+    background: #005bb5;
+}
+
 .logo {
     font-family: 'Montserrat', sans-serif;
     /* Fuente minimalista */

@@ -282,3 +282,15 @@ main {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
+
+/* --- Section --*/
+section {
+    min-height: 100vh;
+    /* ocupa al menos el 100% de la altura de la pantalla */
+    padding: 50px 20px;
+    /* opcional: espacio interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* centra verticalmente el contenido */
+}
